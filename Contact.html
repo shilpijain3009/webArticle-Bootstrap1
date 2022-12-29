@@ -34,23 +34,23 @@
         </ul>
     </header>
 <div class="container m-3">
-    <h4>Contact US</h4>
+    <h4>Contact Us</h4>
     <form>
         <div class="row">
             <div class="col-6">
                 <fieldset>
-                   <!----> <div class="container mt-3 ">
+                   <div class="container mt-3 ">
                              <legend>Your Information</legend>
                  
-                              <form action="./action_page.html" method="post">
-                      
-                      <div class="form floating mt-3 mb-3">
+                              <form>                      
+                       <div class="form floating mt-3 mb-3">
+                     
                           <label for="FName">Your Name</label>
-                          <input type="text" name="fname" class="form-control" > 
+                          <input type="text" id="nm1" name="fname" class="form-control" > 
                       </div>
                       <div class="form floating mb-3">
                           <label for="LName">Last Name</label>
-                          <input type="text" name="lname" class="form-control" placeholder="last name">
+                          <input type="text"id="nm2" name="lname" class="form-control" placeholder="last name">
                           
                       </div>
                       <div class=" form floating mb-3">
@@ -72,14 +72,20 @@
                           <label for="pwd">Password:</label>
                           <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
                         </div>
-                        <button type="submit" id="buttonsub" class="btn btn-primary">Submit</button>
+                        <button type="submit" id="buttonsub" onclick="fullname()" class="btn btn-primary">Submit</button>
                       </div>
+                      <p id="p1">text1</p>
+                      <P id="p2">text2</P> 
+                       <p id="p3">text3</p>
+                      
                   </fieldset>
+                 
 
             </div>
-            <div class="col-6" >
+           
+          <div class="col-6" >
                 <img src="../images1/images/cheets.jpg">
-            </div>
+            </div> 
         </div>
     </form>
 </div>
